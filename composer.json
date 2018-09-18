@@ -8,7 +8,7 @@
         "index",
         "robots"
     ],
-    "homepage": "https://github.com/spatie/laravel-robots-middleware",
+    "homepage": "https://github.com/fumpierrez/laravel-robots-middleware",
     "license": "MIT",
     "authors": [
         {
