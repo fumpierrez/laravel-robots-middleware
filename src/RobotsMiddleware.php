@@ -28,12 +28,13 @@ class RobotsMiddleware
 
     protected function responseWithRobots(string $contents)
     {
-        $this->response->headers->set('x-robots-tag', $contents, false);
+        $this->response->headers->set('X-Robots-Tag', $contents, false);
 
         return $this->response;
     }
 
     /**
+     * @param Request $request
      * @return string|bool
      */
     protected function shouldIndex(Request $request)

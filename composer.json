@@ -1,5 +1,5 @@
 {
-    "name": "spatie/laravel-robots-middleware",
+    "name": "fumpierrez/laravel-robots-middleware",
     "description": "Add an `all` or `none` robots header to your requests via a middleware in Laravel",
     "keywords": [
         "robots",

@@ -30,7 +30,7 @@ class TestCase extends Orchestra
                 });
 
                 $this->app['router']->get('dont-follow-me', function () {
-                    return response('Hello world!')->header('x-robots-tag', 'nofollow');
+                    return response('Hello world!')->header('X-Robots-Tag', 'nofollow');
                 });
             }
         );

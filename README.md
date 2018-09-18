@@ -59,7 +59,7 @@ class Kernel extends HttpKernel
 }
 ```
 
-That's it! Responses will now always have an `x-robots-tag` in their headers, containing an `all` or `none` value.
+That's it! Responses will now always have an `X-Robots-Tag` in their headers, containing an `all` or `none` value.
 
 ## Changelog
 
